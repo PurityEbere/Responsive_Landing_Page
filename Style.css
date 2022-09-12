@@ -17,9 +17,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 45px 5% 0;
 }
 .logo{
     color: white;
@@ -53,6 +51,7 @@ nav ul li a:hover{
     font-weight: bold;
     border-radius: 25px;
     transition: transform .5s;
+    padding: 6px 15px;
 }
 .btn:hover{
     transform: scale(1.2);
